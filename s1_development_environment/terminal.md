@@ -81,7 +81,7 @@ Note if you already are a terminal wizard then feel free to skip the exercises b
         print("Hello world!")
       ```
 
-   3. Save the script and try to execute it
+   3. Save the script and try to execute it. By clicking CTRL + o
 
    4. Afterward, try to edit the file through the terminal (change `Hello world` to something else)
 
@@ -99,4 +99,4 @@ Note if you already are a terminal wizard then feel free to skip the exercises b
 
    2. Change the bash script to call your python program you just wrote.
 
-   3. Try to Google how to write a simple for-loop that executes the python script 10 times in a row.
+   3. Try to Google how to write a simple for-loop that executes the python script 10 times in a row. Not working for me
