@@ -28,8 +28,8 @@ def mnist():
      "../../data/raw/corruptmnist/train_3.npz", "../../data/raw/corruptmnist/train_4.npz"]
     test_file = ["../../data/raw/corruptmnist/test.npz"]
 
-    trainloader = DataLoader(MyDataset(train_files), batch_size = 64, shuffle=True)
-    testloader = DataLoader(MyDataset(test_file), batch_size = 64, shuffle=True)
+    trainloader = DataLoader(MyDataset(train_files), batch_size = 1, shuffle=True)
+    testloader = DataLoader(MyDataset(test_file), batch_size = 1, shuffle=True)
     return trainloader, testloader
 
 @click.command()
